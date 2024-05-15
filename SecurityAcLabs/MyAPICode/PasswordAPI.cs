@@ -11,7 +11,7 @@ namespace MyAPICode
     public class PasswordAPI
     {
         //private string apiURL="url";
-        private HttpClient _client;
+        private readonly HttpClient _client;
         public PasswordAPI()
         {
             _client = new HttpClient();

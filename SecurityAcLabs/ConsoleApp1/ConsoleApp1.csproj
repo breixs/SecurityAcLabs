@@ -9,9 +9,11 @@
 
   <ItemGroup>
     <PackageReference Include="RestSharp" Version="110.2.0" />
+    <PackageReference Include="System.Threading.RateLimiting" Version="8.0.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\MockAPI\MockAPI.csproj" />
     <ProjectReference Include="..\MyAPICode\MyAPICode.csproj" />
     <ProjectReference Include="..\VirusTotal\VirusTotal.csproj" />
   </ItemGroup>
