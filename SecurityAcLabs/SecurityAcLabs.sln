@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyAPICode", "MyAPICode\MyAP
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VirusTotal", "VirusTotal\VirusTotal.csproj", "{CBA9A281-9AC5-4CDB-B2CD-5F23F151BD24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockAPI", "MockAPI\MockAPI.csproj", "{2FDA6834-E8B7-4F54-A2B1-2E9BC904F9BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MockAPI", "MockAPI\MockAPI.csproj", "{2FDA6834-E8B7-4F54-A2B1-2E9BC904F9BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyAPICodeTest", "MyAPICodeTest\MyAPICodeTest.csproj", "{8536040E-83C1-44B6-BEAC-3AFF9F5236F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{2FDA6834-E8B7-4F54-A2B1-2E9BC904F9BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FDA6834-E8B7-4F54-A2B1-2E9BC904F9BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FDA6834-E8B7-4F54-A2B1-2E9BC904F9BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8536040E-83C1-44B6-BEAC-3AFF9F5236F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8536040E-83C1-44B6-BEAC-3AFF9F5236F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8536040E-83C1-44B6-BEAC-3AFF9F5236F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8536040E-83C1-44B6-BEAC-3AFF9F5236F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
